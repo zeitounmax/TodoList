@@ -102,6 +102,10 @@ main{
     margin-bottom: 1rem;
 }
 
+#tasks .task .content {
+    flex: 1 1 0%;
+}
+
 #tasks .task .content .text {
     color: var(--light);
     font-size: 1.125rem;
@@ -137,10 +141,67 @@ main{
 }
 
 .task .actions .edit {
-    background-image: linear-gradient(to right, var(--pink),var(--purple));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .task .actions .delete {
   color: crimson;
 }
+footer {
+    background-color: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    #new-task-input {
+      font-size: 1rem;
+      padding: 0.75rem;
+      border-radius: 0.75rem;
+      margin-right: 0.5rem;
+    }
+  
+    #new-task-submit {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  
+    .task-list h2 {
+      font-size: 1.25rem;
+    }
+  
+    #tasks .task .content .text {
+      font-size: 1rem;
+    }
+  
+    .task .actions button {
+      font-size: 1rem;
+    }
+  }
+  footer {
+    background-color: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
