@@ -4,7 +4,6 @@ window.addEventListener('load', () => {
 	const list_el = document.querySelector("#tasks");
 	let tasks = [];
 
-	// récupération des tâches à partir du stockage local
 	if (localStorage.getItem('tasks')) {
 		tasks = JSON.parse(localStorage.getItem('tasks'));
 		tasks.forEach(task => {
@@ -24,7 +23,6 @@ window.addEventListener('load', () => {
 
 		input.value = '';
 
-		// sauvegarde des tâches dans le stockage local
 		localStorage.setItem('tasks', JSON.stringify(tasks));
 	});
 
