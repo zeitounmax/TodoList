@@ -1,5 +1,11 @@
-<h1> My Todolist </h1>
-<em> based on the tutorial by Tyler Potts </em>
+# My Todolist
 
-<p> Here is a todo list I made with TylerPotts' tutorial on youtube. 
-I have in addition to follow his tutorial, add a function to save the list ( localStorage)</p>
+![logo ](https://github.com/zeitounmax/TodoList/blob/main/logo.png?raw=true)
+
+just for fun, I took a small Todolist based on a tutorial and added a few features.
+
+## Tools :
+
+- Html
+- CSS
+- JavaScript
